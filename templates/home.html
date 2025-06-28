@@ -1,7 +1,30 @@
 <!DOCTYPE html>
+
 <html>
-<h1>Welcome to DSA Flask Tutorial</h1>
-<br>
-<h2>Hello {{ person }}!</h2>
+
+<head>
+    <title> HTML and CSS for Data Scientists </title>
+</head>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+<!--This is a sample-->
+
+<body>
+    <h1 style="background-color: aqua;">Welcome to DSA</h1>
+    <h3>Introduction to HTML and CSS</h3>
+    <p>This session is about basics of <i>html and css</i>.
+        <br><br> First we will discuss about <b>html</b>.
+
+        <br>
+        <br>Please <a href="http://www.google.com">Click here</a> to see the session recordings
+
+        <br><br>
+        <img src="https://www.pexels.com/photo/pathway-between-trees-towards-house-126271/" width="250" alt="landscape">
+
+        <br>
+    <p class="p2">This is only a sample webpage</p>
+    </p>
+</body>
 
 </html>
